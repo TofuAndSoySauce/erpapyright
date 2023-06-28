@@ -213,6 +213,7 @@ function comcombo(group_code, combo_name, type, selvalue){
 	        			 $(selectbox).append("<option value='"+ item_obj.dtl_cod + "'>" + item_obj.dtl_cod_nm + "</option>");
 	        		 }
 	        	 } else {
+	        		 console.log("selectbox : " + selectbox);
 	        		 $(selectbox).append("<option value='"+ item_obj.dtl_cod + "'>" + item_obj.dtl_cod_nm + "</option>");
 	        	 }
 	        	 

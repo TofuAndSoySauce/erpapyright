@@ -607,7 +607,7 @@ click-able rows
 			}
 			
 			// 입력폼 초기화
-			//fInitFormGrpCod();
+			fInitFormGrpCod();
 		}
 		
 </script>
